@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site For Mobiles</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- making the navigation with logo and search bar -->
+    <nav class="heading_navigation flex" id="navigation_heading">
+        <!-- making the nav container for max width -->
+        <div class="nav_container flex">
+            <div class="logo flex">
+                <a href="../html/index.html" class="flip_logo"><img src="../images/logo.png" alt="logo"></a>
+                <a href="../html/index.html" class="anchor plus">Explore<span class="plus_lan">Plus <img
+                            src="../images/plus.png" alt="logo"></span></a>
+            </div>
+
+            <!-- making the searchbar -->
+            <div class="search_bar_container">
+                <div class="search_bar">
+                    <form class="search flex">
+                        <input type="text" placeholder="Search For products, brands and more" class="search_box">
+                        <button class="btn_search"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- making the login nutton -->
+            <div class="login">
+                <a href="../html/#" class="login_btn">login</a>
+                <div class="login_dropdown none">
+                    <ul class="login_dropdown_list">
+                        <li class="login_drop_li sign_li flex">
+                            <p class="new_login">New customer</p>
+                            <a href="../html/#" class="sign_up">Sign Up</a>
+                        </li>
+                        <li class="login_drop_li">My Profile</li>
+                        <li class="login_drop_li">Flipkart Plus Zne</li>
+                        <li class="login_drop_li">Orders</li>
+                        <li class="login_drop_li">Whislist</li>
+                        <li class="login_drop_li">Rewards</li>
+                        <li class="login_drop_li">Gift Cards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- making the more button -->
+            <div class="more">
+                <span class="more_lan">More <i class="fa fa-angle-down"></i></span>
+                <div class="more_dropdown none">
+                    <div class="pointer more_pointer"></div>
+                    <ul class="more_dropdown_list">
+                        <li class="more_drop_li"><i class="more_icon fa fa-bell"></i>Notification Preferences</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-question"></i>24X7 Customer Care</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-line-chart"></i>Advertise</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-download"></i>Download App</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- making the cart button -->
+            <div class="cart">
+                <span class="cart_lan"><i class="fa fa-shopping-cart"></i> Cart</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- making the heading categories -->
+    <div class="heading_categories flex ">
+        <ul class="heading_category_list flex">
+            <li class="heading_category_items">
+                <img src="../images/top.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Top Offers</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/grocery.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Grocery</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/phone.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Mobiles</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/fashion.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Fashion <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items"></li>
+            <li class="heading_category_items">
+                <img src="../images/electronics.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Electronics <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/home.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Home <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/appliances.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Appliances <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/travel.png" alt="loadinng image" class="cat_image">
+                <p class="heading_item_name">Travel</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="../images/toy.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Beauty, Toys & More <i class="fa fa-angle-down"></i></p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- making the corousel and items container -->
+    <div class="corousel_item_container flex">
+        <div class="prev_btn nav_button">
+            <div class="corousel_btn flex">
+                <i class="fa fa-angle-left next_prev"></i>
+            </div>
+        </div>
+        <div class="next_btn nav_button">
+            <div class="corousel_btn flex">
+                <i class="fa fa-angle-right next_prev"></i>
+            </div>
+        </div>
+        <div class="corousel_items flex">
+            <img src="../images/corousel2.png" alt="loading corousel" class="corousel_image">
+        </div>
+    </div>
+</body>
+
+</html>
